@@ -60,7 +60,7 @@ nbclient==0.5.3
 nbconvert==6.0.7
 nbformat==5.1.2
 nest-asyncio==1.5.1
-notebook==6.2.1
+notebook==6.4.1
 numba @ file:///home/conda/feedstock_root/build_artifacts/numba_1623568543876/work
 numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1629092040774/work
 olefile @ file:///home/conda/feedstock_root/build_artifacts/olefile_1602866521163/work
