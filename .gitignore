@@ -2,5 +2,5 @@
 /creds.py
 
 # Ignore large datasets
-/dataset/full_resale_prices_1990to2021.parquet.gzip
+/dataset/full_resale_prices_1990to2021.csv
 /dataset/resale-flat-prices/**
