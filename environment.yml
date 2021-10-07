@@ -3,8 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - freeglut3-dev
-  - libgtk2.0-dev
   - _libgcc_mutex=0.1
   - _openmp_mutex=4.5
   - _py-xgboost-mutex=2.0
