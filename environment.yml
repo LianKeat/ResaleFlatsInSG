@@ -11,9 +11,10 @@ dependencies:
   - scikit-learn=1.0
   - scipy=1.7.1
   - seaborn=0.11.2
-  - streamlit=0.89.
+  - streamlit=0.89.0
   - xgboost
   - pip:
     - onemapsg==1.0.3
     - requests-toolbelt==0.9.1
+    - joblib
 prefix: /home/liankeat/miniconda3/envs/resale_env
