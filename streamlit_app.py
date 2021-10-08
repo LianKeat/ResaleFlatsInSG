@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import pickle
+import sklearn
 
 st.title("Resale HDB Flat Predictor")
 
