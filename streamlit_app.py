@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
-import joblib
+import pickle
 
 st.title("Resale HDB Flat Predictor")
 
@@ -57,7 +57,10 @@ floor_area_sqm = st.slider("Pick flat size for a {} ({})".format(flat_type,flat_
 
 
 # Model Load
-pipeline = joblib.load('pipeline.pkl')
+# pipeline = joblib.load('pipeline.pkl')
+with open("pipeline.pkl","rb") as pickle_file:
+        pipeline = pickle.load(pickle_file)
+
 
 # Pre-process new data
 parameters = {"floor_area_sqm":[floor_area_sqm],
