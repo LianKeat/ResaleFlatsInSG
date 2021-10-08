@@ -7,4 +7,5 @@ dependencies:
   - pip=21.2.4
   - pandas=1.2.5
   - streamlit=0.89.0
+  - sklearn=1.0
 prefix: /home/liankeat/miniconda3/envs/resale_env
