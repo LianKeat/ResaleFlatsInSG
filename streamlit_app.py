@@ -78,4 +78,14 @@ y_pred = pipeline.predict(df_pred)
 st.header("Prediction Model")
 st.subheader("Selected parameters:")
 st.write(parameters)
-st.write(f"It is predicted that your house would cost around an estimate of SGD${y_pred[0]:.1f}k!")
+st.write(f"It is predicted that your house would cost around an estimate of\n")
+
+st.markdown("""
+<style>
+.big-font {
+    font-size:300px !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+st.markdown(f'<p class="big-font">SGD${y_pred[0]:.1f}k!</p>', unsafe_allow_html=True)
