@@ -3,9 +3,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 import pickle
-from sklearn.preprocessing import StandardScaler, OrdinalEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.pipeline import Pipeline
 
 st.title("Resale HDB Flat Predictor")
 
